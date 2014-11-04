@@ -56,6 +56,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132180221A069C8E004E422D /* Model Layer */ = {
+			isa = PBXGroup;
+			children = (
+				132180251A087D3C004E422D /* Person Class */,
+				135D3DC61A002FDA0026C8B6 /* AppDelegate.swift */,
+			);
+			name = "Model Layer";
+			sourceTree = "<group>";
+		};
+		132180231A069C95004E422D /* View Layer */ = {
+			isa = PBXGroup;
+			children = (
+				135D3DCA1A002FDA0026C8B6 /* Main.storyboard */,
+				135D3DCD1A002FDA0026C8B6 /* Images.xcassets */,
+				135D3DCF1A002FDA0026C8B6 /* LaunchScreen.xib */,
+			);
+			name = "View Layer";
+			sourceTree = "<group>";
+		};
+		132180241A069C9B004E422D /* Controller Layer */ = {
+			isa = PBXGroup;
+			children = (
+				135D3DC81A002FDA0026C8B6 /* ViewController.swift */,
+			);
+			name = "Controller Layer";
+			sourceTree = "<group>";
+		};
+		132180251A087D3C004E422D /* Person Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Person Class";
+			sourceTree = "<group>";
+		};
 		135D3DB81A002FDA0026C8B6 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +111,9 @@
 		135D3DC31A002FDA0026C8B6 /* HomeworkWeek1 */ = {
 			isa = PBXGroup;
 			children = (
-				135D3DC61A002FDA0026C8B6 /* AppDelegate.swift */,
-				135D3DC81A002FDA0026C8B6 /* ViewController.swift */,
-				135D3DCA1A002FDA0026C8B6 /* Main.storyboard */,
-				135D3DCD1A002FDA0026C8B6 /* Images.xcassets */,
-				135D3DCF1A002FDA0026C8B6 /* LaunchScreen.xib */,
+				132180241A069C9B004E422D /* Controller Layer */,
+				132180231A069C95004E422D /* View Layer */,
+				132180221A069C8E004E422D /* Model Layer */,
 				135D3DC41A002FDA0026C8B6 /* Supporting Files */,
 			);
 			path = HomeworkWeek1;
@@ -405,6 +437,7 @@
 				135D3DE21A002FDA0026C8B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		135D3DE31A002FDA0026C8B6 /* Build configuration list for PBXNativeTarget "HomeworkWeek1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				135D3DE51A002FDA0026C8B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
